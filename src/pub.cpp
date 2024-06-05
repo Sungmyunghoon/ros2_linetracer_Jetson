@@ -1,8 +1,8 @@
 #include "rclcpp/rclcpp.hpp" //ROS2의 C++ 클라이언트 라이브러리
 #include "geometry_msgs/msg/vector3.hpp" //3D 벡터 메시지
 #include "dxl/dxl.hpp" //dxl의 기능을 사용할 헤더파일
-#include <memory>
-#include <chrono>
+#include <memory> //스마트 포인터와 관련된 클래스 및 함수들을 포함
+#include <chrono> //시간 측정 및 조작과 관련된 클래스 및 함수들을 포함
 #include "sensor_msgs/msg/compressed_image.hpp" //압축 이미지 메시지를 사용하기 위한 헤더 파일
 #include "cv_bridge/cv_bridge.h" //OpenCV와 ROS 이미지 메시지 간의 변환을 도와주는 해더파일
 #include "opencv2/opencv.hpp" //OpenCV 라이브러리를 포함
